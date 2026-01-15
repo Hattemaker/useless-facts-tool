@@ -27,8 +27,8 @@ public class OptimizelyService : IOptimizelyService
             return "default";
         }
 
-        // In a real implementation, this would use the Optimizely SDK
-        // For now, returning a simulated variation
+        // Simulated variation based on user ID
+        // Replace this with actual Optimizely SDK when integrated
         var variations = new[] { "control", "treatment", "default" };
         var hashCode = Math.Abs(userId.GetHashCode()) % variations.Length;
         
@@ -47,6 +47,7 @@ public class OptimizelyService : IOptimizelyService
         }
 
         // Simulate feature flag evaluation
+        // Replace this with actual Optimizely SDK when integrated
         var variation = GetFeatureVariation(featureKey, userId);
         return variation != "control";
     }
