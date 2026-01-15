@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: useless-facts-tool
+    runtime: docker
+    plan: free
+    branch: main
+    healthCheckPath: /
+    envVars:
+      - key: ASPNETCORE_ENVIRONMENT
+        value: Production
+      - key: ASPNETCORE_URLS
+        value: http://+:${PORT}

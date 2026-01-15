@@ -1,0 +1,10 @@
+**/.vscode
+**/bin
+**/obj
+**/.git
+**/.gitignore
+**/.DS_Store
+**/node_modules
+**/README.md
+**/GITHUB_SETUP.md
+*.log
