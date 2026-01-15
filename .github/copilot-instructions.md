@@ -1,0 +1,8 @@
+- [ ] Scaffold the Project - COMPLETED
+- [ ] Create Project Structure - COMPLETED  
+- [ ] Create Models - COMPLETED
+- [ ] Create Services - COMPLETED
+- [ ] Create Controllers - COMPLETED
+- [ ] Compile the Project
+- [ ] Test the Application
+- [ ] Prepare for GitHub Push
